@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<meta charset="utf-8">
+		<title>Pirmas html</title>
+	</head>
+	<body>
+		<h1>Duomenų informacija</h1>
+		<form method="POST">
+			<fieldset>
+				<label>El. pašto adresas:</label>
+				<input type="email" name="email" required>
+			</fieldset>
+			<fieldset>
+				<label>Slaptažodis:</label>
+				<input type="password" name="password" required>
+			</fieldset>
+			<fieldset>
+				<label>Patvirtinti slaptažodį:</label>
+				<input type="password" name="confirm" required>
+			</fieldset>
+			<fieldset>
+				<label>Sutinku su taisyklėmis:</label>
+				<input type="checkbox" checked required>
+			</fieldset>
+			<h1>Pasirinkite sąskaitos adresą</h1>
+			<fieldset>
+				<label>Lytis:</label>
+				<select>
+					<option>Moteris</option>
+					<option>Vyras</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Vardas:</label>
+				<input type="text" name="name" required>
+			</fieldset>
+			<fieldset>
+				<label>Pavardė:</label>
+				<input type="text" name="surname" required>
+			</fieldset>
+			<fieldset>
+				<label>Gatvė, namo(buto)nr.:</label>
+				<input type="text" name="address" required>
+				<input type="text" name="name" required>
+			</fieldset>
+			<fieldset>
+				<label>Pašto kodas:</label>
+				<input type="text" name="postcode" required>
+				<a href="https://post.lt/pasto-kodu-ir-adresu-paieska" target="_blank">Pašto kodų paieška</a>
+			</fieldset>
+			<fieldset>
+				<label>Miestas:</label>
+				<input type="text" name="city" required>
+			</fieldset>
+			<fieldset>
+				<label>Šalis:</label>
+				<select>
+					<option selected disabled>-</option>
+					<option>Lietuva</option>
+					<option>Lenkija</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Telefonas:</label>
+				<input type="number" name="phone" required>
+			</fieldset>
+			<fieldset>
+				<label>Papildoma info: <br>(Pavyzdžiui vartų/durų kodas):</label>
+				<input type="text" name="info">
+			</fieldset>
+			<fieldset>
+				<button type="submit">Registruotis</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
